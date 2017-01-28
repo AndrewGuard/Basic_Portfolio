@@ -1,0 +1,88 @@
+<!-- assignment 1, recommended --> 
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+	<meta charset="UF-8">
+	<title>Homework Assignment 1</title>
+
+	<link rel="stylesheet" type="text/css" href="C:\Users\Jared\Basic_Portfolio\assets\css\style.css">
+	
+
+</head>
+
+
+<body background="C:\Users\Jared\Desktop\Coding\Codes\sandpaper.png">
+
+	<!--
+	 <background-image: url="C:\Users\Jared\Desktop\Coding\Codes\sandpaper.png">
+	-->
+
+	<ul>
+		<li><a href="contact.html">Contact</a></li>
+  		<li><a href="portfolio.html">Porfolio</a></li>
+  		<li><a href="index.html">About</a></li>
+	</ul>
+
+	<header>
+
+		<h1>Jared Moscrip</h1>
+
+		<!--
+		<button class="About1">About</button>
+		<button class="Portfolio1">Portfolio</button>
+		<button class="Contact1">Contact</button>
+		-->
+
+	</header>
+
+	<div>
+
+
+		<section id="about"> 
+
+			<h2>About Me</h2>
+
+			<img src="C:\Users\Jared\Basic_Portfolio\assets\images\Me!.jpg" height="200" width="150">
+
+			<p>I enjoying messing around on computers and trying to figure them out before I just completely mess them up.</p>
+
+			<p>I'm currently working on getting better at understanding HTML and CSS and working towards becoming a full stack developer.</p>
+		
+		</section>
+
+
+		<section id="connections">
+
+			<h2>Connect with Me</h2>
+
+			<!-- picture links, 
+			git hub picture "C:\Users\Jared\Basic_Portfolio\assets\images\github.png" 
+			-->
+			<p>
+			<a href="https://www.github.com/1jared123"><img border="0" alt="Github" src="data:image/png;base64,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" width="50" height="50">
+			</a>
+
+			<a href="https://www.linkedin.com/in/jared-moscrip-571350135"><img border="0" alt="Linkedin" src="C:\Users\Jared\Basic_Portfolio\assets\images\linkedin.png" width="50" height="50">
+			</a>
+
+			<a href="https://www.stackoverflow.com"><img border="0" alt="StackOverflow" src="C:\Users\Jared\Basic_Portfolio\assets\images\stackoverflow.png" width="50" height="50">
+			</a>
+			</p>
+
+		</section>
+
+
+	</div>
+
+
+	<footer>
+
+		<!-- alt command is 0169 for © -->
+		<p>©Copyright 2017 Jared Moscrip</p>
+
+	</footer>
+
+
+</body>
