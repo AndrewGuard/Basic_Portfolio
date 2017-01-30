@@ -1,0 +1,30 @@
+.fixed {
+	color: blue;
+	background-color: pink;
+	position: fixed;
+	left:0;
+	right:0;
+	text-align: center;
+
+}
+
+.body {
+
+}
+
+.relative {
+
+}
+
+.absolute {
+
+}
+
+h1 {
+
+}
+
+body {
+	text-align: left;
+	padding-left: 50px;
+}
